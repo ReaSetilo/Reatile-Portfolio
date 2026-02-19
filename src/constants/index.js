@@ -20,6 +20,11 @@ import {
   mathwork,
   CompileVortex,
   eduskill,
+  R,
+  Javascript,
+  Trakm,
+  Concrete,
+  Lexer
 } from "../assets";
 
 export const navLinks = [
@@ -38,8 +43,8 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
+  { title: "Javascript", icon: Javascript },
+  { title: "R", icon: R },
   { title: "Python", icon: python },
   { title: "Java", icon: java },
 ];
@@ -57,114 +62,55 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "AI/ML Security Intern",
+    company_name: "Maungo craft",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Jun 2025 - Aug 2025",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Acquired hands-on knowledge of automation, delving into security for ai systems.",
+      "also building on a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
     ],
   },
-  {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
-    iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
-    points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
-    ],
-  },
+  
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Neighbourhood watch app",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "A user facing mobile app for a neighbourhood watch group with a web based admin dashboard",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "React-native", color: "green-text-gradient" },
+      { name: "Node.js", color: "pink-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: Trakm,
+    source_code_link: "https://github.com/ReaSetilo/NeigbourhoodWatchApp3",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Concrete property prediction System",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A web based machine learning platform that allows users to type different ash types that will be used in a concrete mix, then gives expected slump, cost, and carbon dioxide emissions  ",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "AI/ML", color: "blue-text-gradient" },
+      { name: "python", color: "green-text-gradient" },
+      { name: "engineering", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    image: Concrete,
+    source_code_link: "https://github.com/ReaSetilo/Concrete-property-prediction",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Setswana compiler",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "A CLI based project that takes an input sentence then determines if it is grammatically correct setswana",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "python", color: "blue-text-gradient" },
+      { name: "NLP", color: "green-text-gradient" },
+      { name: "compiler theory", color: "pink-text-gradient" },
     ],
-    image: mhft,
+    image: Lexer,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+      "https://github.com/ReaSetilo/Setswana-lexical-analyzer-and-compiler",
   },
 ];

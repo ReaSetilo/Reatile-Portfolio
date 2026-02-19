@@ -8,6 +8,8 @@ import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
+import R from "./tech-stack/R.png";
+import Javascript from "./tech-stack/Javascript.png"
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -16,7 +18,9 @@ import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
-
+import Trakm from './projects/Trakm.png';
+import Concrete from "./projects/Concrete.png";
+import Lexer from "./projects/Python-lexer.png";
 // Import tech logos
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -59,4 +63,9 @@ export {
   menu,
   close,
   eduskill,
+  R,
+  Javascript,
+  Trakm, 
+  Concrete,
+  Lexer
 };
